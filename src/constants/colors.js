@@ -5,7 +5,6 @@ const colors = {
   accent: 'bg-yellow-400',
   accentText: 'text-yellow-400',
   background: 'bg-gray-50',
-  text: 'text-gray-800',
+  text: 'text-gray-800'
 };
-
 export default colors;

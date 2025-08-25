@@ -1,7 +1,21 @@
 import React, { useState } from 'react';
-import { Facebook, Youtube, Tiktok } from 'lucide-react';
+import { Facebook, Youtube } from 'lucide-react';
 import streamUrls from '../constants/streamUrls';
 import colors from '../constants/colors';
+
+// Ícono TikTok inline (para no depender de lucide-react)
+const TikTokIcon = ({ size = 32 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 256 256"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <path d="M160 24c8 24 25 40 48 46v36c-18-1-35-7-48-18v80a64 64 0 1 1-64-64h8v36h-8a28 28 0 1 0 28 28V24h36z" />
+  </svg>
+);
 
 const LiveStream = () => {
   const [source, setSource] = useState('youtube');
@@ -35,11 +49,11 @@ const LiveStream = () => {
             aria-label="TikTok"
             title="TikTok"
           >
-            <Tiktok size={32} />
+            <TikTokIcon />
           </button>
         </div>
 
-        <div className="relative w-full pb-[56.25%] overflow-hidden rounded-lg shadow-2xl">
+        <div className="relative w-full pb-[56.25%] overflow-hidden rounded-lg shadow-2xl bg-black">
           <iframe
             src={streamUrls[source]}
             title="Live Stream"
