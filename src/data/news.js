@@ -1,10 +1,10 @@
 const news = [
   {
     id: 1,
-    title: 'Próximo Evento: Festejos día de la niñez',
+    title: 'Día de la niñez',
     date: '31 de Agosto, 2025',
     excerpt: 'El comedor “Encuentros de Amor” realizará un gran evento por el día de la niñez, el mismo se celebrará el 31 de agosto a las 15:00 horas, en la calle Casariego 2380, Barrio El Recuerdo, Bolívar, Buenos Aires.',
-    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Evento+Niñez'
+    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Proximo+Evento'
   },
   {
     id: 2,
