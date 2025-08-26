@@ -14,7 +14,7 @@ const Hero = () => {
           Bienvenidos a Iglesia Cristo Vive
         </h1>
         <p className="text-xl md:text-2xl mb-8 animate-fade-in-up">
-          Un lugar de esperanza, amor y fe. Ven a crecer con nosotros en la palabra de Dios.
+          Acá, cada corazón encuentra un refugio y cada alma, una conexión. Te invitamos a ser parte de nuestra familia, donde la fe nos une y el amor nos guía. Explorá un espacio diseñado para inspirarte, nutrirte y acompañarte en tu caminar.
         </p>
         <a
           href="#contacto"

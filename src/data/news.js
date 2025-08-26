@@ -1,24 +1,24 @@
 const news = [
   {
     id: 1,
-    title: 'Próximo Evento de Oración',
-    date: '22 de Agosto, 2025',
-    excerpt: 'Nos reuniremos para orar por nuestra comunidad...',
-    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Evento+Oración'
+    title: 'Próximo Evento: Festejos día de la niñez',
+    date: '31 de Agosto, 2025',
+    excerpt: 'El comedor “Encuentros de Amor” realizará un gran evento por el día de la niñez, el mismo se celebrará el 31 de agosto a las 15:00 horas, en la calle Casariego 2380, Barrio El Recuerdo, Bolívar, Buenos Aires.',
+    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Evento+Niñez'
   },
   {
     id: 2,
-    title: 'Grupo de Estudios Bíblicos',
-    date: '15 de Agosto, 2025',
-    excerpt: '¡Únete a nuestro nuevo grupo de estudio de las Escrituras!',
-    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Estudio+Bíblico'
+    title: 'Noticia en proceso',
+    date: '26 de Agosto, 2025',
+    excerpt: '¡Únete a nuestra comunidad digital!',
+    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Comunidad+Digital'
   },
   {
     id: 3,
-    title: 'Jornada de Voluntariado Comunitario',
+    title: 'Noticia en proceso',
     date: '10 de Agosto, 2025',
-    excerpt: 'Ayudando a nuestros vecinos con amor y servicio...',
-    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Voluntariado'
+    excerpt: '¡Únete a nuestra comunidad digital!',
+    imageUrl: 'https://placehold.co/400x250/1e40af/ffffff?text=Comunidad+Digital'
   }
 ];
 

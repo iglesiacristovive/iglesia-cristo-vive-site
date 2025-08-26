@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: 'Ana Lucía Días',
+    name: 'Ana Lucía Diaz',
     testimony:
       'Las transmisiones en vivo me permiten conectarme con la palabra de Dios sin importar dónde esté. Una bendición enorme.',
     image: 'https://placehold.co/100x100/1e40af/ffffff?text=ALD'
